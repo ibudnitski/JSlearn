@@ -5,3 +5,12 @@ console.log(styles);
 console.log(styles.shift());
 console.log(styles);
 styles.unshift('Rap', 'Ragga');
+
+
+let arr = ["a", "b"];
+
+arr.push(function() {
+    console.log( this );
+})
+
+arr[2]();
